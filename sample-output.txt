@@ -1,0 +1,4 @@
+Examples:-
+./restore.sh -k rest-bkp-vlt -s kevaultstrg -c kevalultcontainer -z devkeyvault05/devkeyvault05-2021-12-07.zip
+
+./backup.sh -k devkeyvault05 -s kevaultstrg -c kevalultcontainer
