@@ -8,7 +8,7 @@ Param(
   [Parameter(Mandatory = $False)][string]$fileshareFolder="KeyVaultBackup" 
 )
 
-$localZipFolder = "$env:Temp\$fileshareFolder"   
+$localZipFolder = "$fileshareFolder"   
 
 # Setup backup directory
 $tmpFolder = "$localZipFolder/zip"
